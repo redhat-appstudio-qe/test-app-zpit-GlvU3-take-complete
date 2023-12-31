@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-python-basic-u6ew
     spec:
       containers:
-      - image: python-image:latest
+      - image: quay.io/redhat-appstudio-qe/build-e2e-cvnr-tenant/test-app-zpit/devfile-sample-python-basic-u6ew@sha256:01159b465417858ba3f63a202eb18341867098935427e5e036fb97e05e44b47e
         name: my-python
         ports:
         - containerPort: 8081
