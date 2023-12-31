@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-python-basic-u6ew
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/build-e2e-cvnr-tenant/test-app-zpit/devfile-sample-python-basic-u6ew@sha256:01159b465417858ba3f63a202eb18341867098935427e5e036fb97e05e44b47e
+        name: my-python
+        resources: {}
+status: {}
